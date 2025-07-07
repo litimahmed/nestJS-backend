@@ -1,0 +1,34 @@
+# top-most EditorConfig file
+root = true
+
+# Global settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# TypeScript files (including NestJS)
+[*.ts]
+indent_size = 4
+quote_type = double
+# Optional: enforce arrow functions or other TypeScript-specific styles could be added via editor extensions
+
+# JSON files (e.g., package.json, tsconfig.json)
+[*.json]
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# Other project-specific files if needed
+# e.g., for environment files
+[*.env]
+indent_size = 2
+
+# Optional: specific settings for test files if applicable
+[*Test.ts]
+indent_size = 4
