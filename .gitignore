@@ -42,3 +42,14 @@ Thumbs.db
 .nx/workspace-data
 .cursor/rules/nx-rules.mdc
 .github/instructions/nx.instructions.md
+
+# Diagram folder
+Diagrams/.structurizr
+Diagrams/*.json
+Diagrams/adrs
+
+modeling/system-context/.structurizr
+modeling/system-context/*.json
+
+.vscode
+docs
